@@ -7,7 +7,7 @@
 
 .card{
     display: grid;
-    max-width: 46rem;
+    max-width: 42rem;
 
     @media (min-width:37.5em){
         margin-inline: 1rem;
@@ -52,7 +52,7 @@
     background: $gradient-primary;
     border-radius: 0 0 $border-radius $border-radius;
     color: rgba($clr-neutral-100, .6);
-    padding: 1.8rem;
+    padding: 2rem;
 
     @media (min-width: 37.5em){
         border-radius: $border-radius;
@@ -83,12 +83,16 @@
         color: $clr-neutral-200;
     }
 
+    &__text{
+        padding: 1rem;
+    }
+
 }
 
 .summary{
     display: grid;
-    gap: 1.3rem;
-    padding: 1.8rem;
+    gap: 2rem;
+    padding: 2rem;
 
     &__item{
         display: flex;
