@@ -1,0 +1,49 @@
+// COLORS 
+
+$clr-accent-1: hsl(0, 100%, 67%);
+$clr-accent-2: hsl(39, 100%, 56%);
+$clr-accent-3: hsl(166, 100%, 37%);
+$clr-accent-4: hsl(234, 85%, 45%);
+
+$clr-accent-mod-1: hsla(0, 100%, 67%, .2);
+$clr-accent-mod-2: hsla(39, 100%, 56%, .2);
+$clr-accent-mod-33: hsla(166, 100%, 37%, .2);
+$clr-accent-mod-4: hsla(234, 85%, 45%, .2);
+
+$clr-primary-400: hsl(252, 100%, 67%);
+$clr-primary-500: hsl(241, 81%, 54%);
+$clr-secondary-400:  hsla(256, 72%, 46%, 1);
+$clr-secondary-500: hsla(241, 72%, 46%, 0);
+
+$gradient-primary: linear-gradient(to bottom, $clr-primary-400, $clr-primary-500);
+$gradient-secondary: linear-gradient(to bottom, $clr-secondary-400, $clr-secondary-500);
+
+$clr-neutral-900: hsl(224, 30%, 27%);
+$clr-neutral-400: hsl(241, 100%, 89%);
+$clr-neutral-200: hsl(221, 100%, 96%);
+$clr-neutral-100: hsl(0, 0%, 100%);
+
+// FONT 
+@font-face { 
+    font-family: 'HankenGrotesk' ;
+    font-display: swap;
+    font-weight: 500 800;
+    src: url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+
+$default-font-size: 1.125rem;
+$fs-500: 1.125rem;
+$fs-600: 1.25rem;
+$fs-700: 1.5rem;
+$fs-900: 2rem;
+$fs-large: 5rem;
+
+
+$default-font-family: 'HankenGrotesk';
+
+$fw-regular: 500;
+$fw-bold: 700;
+$fw-extrabold: 800;
+
+//CARD
+$border-radius: 1.5rem;

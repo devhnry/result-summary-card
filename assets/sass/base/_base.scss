@@ -1,0 +1,14 @@
+body{
+    font-family: $default-font-family;
+    font-size: $default-font-size;
+    color: $clr-neutral-900;
+    position: relative;
+}
+
+@media (min-width: 37.5em){
+    body{
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+    }
+}
