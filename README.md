@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Results Summary Component (SASS + GRID + Vite)]()
-- Live Site URL: [GitHub Pages]()
+- Solution URL: [Results Summary Component (SASS + GRID + Vite)](https://www.frontendmentor.io/solutions/results-summary-component-sass-grid-vite-ajGB54wwJM)
+- Live Site URL: [GitHub Pages](https://dashing-cascaron-ff24d5.netlify.app/)
 
 ## My process
 
