@@ -7,7 +7,7 @@
 
 .card{
     display: grid;
-    max-width: 38rem;
+    max-width: 46rem;
 
     @media (min-width:37.5em){
         margin-inline: 1rem;
@@ -37,28 +37,6 @@
 .summary__title{
     font-size: $fs-500;
     font-weight: $fw-bold;
-}
-
-.footer{
-    position: absolute;
-    text-align: center;
-    font-size: .7rem;
-    color: rgba($clr-neutral-900, .4);
-    bottom: 1rem;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
-    visibility: hidden;
-
-    &__link{
-        color: $clr-neutral-900;
-        text-decoration: none;
-    }
-
-    @media (min-width : 37.5em){
-        opacity: 1;
-        visibility: visible;
-    }
 }
 
 .container{
